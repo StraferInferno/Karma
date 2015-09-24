@@ -25,7 +25,7 @@ div {
     background-color: #fff;
     position: fixed;
     width: 100%;
-	z-index: 9999;
+    z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
@@ -73,7 +73,7 @@ ul {
 }
 
 .content {
-	margin-top: 13rem;
+    margin-top: 13rem;
 }
 
 .content h1{
@@ -96,7 +96,7 @@ margin: 0 auto;
 
 
 .content h2{
-	color: black;
+    color: black;
     text-align: center;
     font-weight:300;
     font-size: 2.5em;
@@ -118,7 +118,7 @@ margin: 0 auto;
 }
 
 .buttons {
-	margin:1rem 38rem;
+    margin:1rem 38rem;
     /*margin-top:1.2rem;*/
 }
 
@@ -126,13 +126,13 @@ margin: 0 auto;
 
     overflow: auto;
     background: url(../images/BackG.jpg) ; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	height: 45.938rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 45.938rem;
 }
 
 button:hover {
@@ -141,36 +141,90 @@ cursor: pointer;
 }
 
 .iconsection{
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .iconsection > .content {
 
-	margin-top: 5rem;
+    margin-top: 5rem;
 
 }
 
 
 .iconsection > .content > ul > li {
 
-	display: inline-block;
-	padding: 0	1.5em;
+    display: inline-block;
+    padding: 0  1.5em;
 }
 
 
 .iconsection > .content > ul {
 
-	text-align: center;
-	padding-left: 0;
+    text-align: center;
+    padding-left: 0;
 }
 
 .content > ul > li > h4 {
 
-	font-size: 1.4em;
-	font-weight: 400;
+    font-size: 1.4em;
+    font-weight: 400;
 }
 
 
 .iconsection > .content > ul > li  .device {
-	/*padding:0 1em;*/
+    /*padding:0 1em;*/
+}
+
+.social > .content > ul, #join {
+    text-align: center;
+    padding-left: 0;
+}
+
+.social > .content > ul > li {
+display: inline-block;
+
+}
+
+i {
+    border: 1px solid #E1E1DA;
+    padding: 12px 11px; 
+    width: 20px;
+    border-radius: 35px;
+}
+
+hr {
+    /*border-color: red;*/
+    width: 970px;
+    border: 0;
+	border-top:1px solid #E1E1DA; 
+}
+
+.social > .content {
+
+	margin-top: 7em;
+	padding-bottom: 10em;
+}
+
+.fa.fa-twitter {
+color: #55ACEE;
+}
+
+
+.fa.fa-facebook
+{
+color:#4C66A4;
+}
+
+.fa.fa-instagram
+{
+	color:#3F729B;
+}
+
+span {
+	color:grey;
+	text-align: center;
+	font-weight: 300;
+	left: 594px;
+	position: relative;
+	vertical-align: baseline;
 }
